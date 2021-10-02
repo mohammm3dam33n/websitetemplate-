@@ -1,0 +1,239 @@
+/*Start section Sidebar/menu  */
+
+header {
+    background-color: #f44336;
+    padding: 25px;
+    font-size: 25px;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+}
+
+.sidebar {
+    height: 100%;
+    width: 300px;
+    background-color: #fff;
+    position: fixed;
+    z-index: 50;
+    background-color: #f44336;
+    color: white;
+    font-weight: bold;
+}
+
+.menu {
+    margin-left: 15px;
+}
+
+.menu a {
+    text-decoration: none;
+    display: block;
+    color: white;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.menu a:hover {
+    padding-left: 15px;
+}
+
+.header-text {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    margin-left: 15px;
+    font-size: 25px;
+}
+
+@media (max-width:992px) {
+    .sidebar {
+        display: none
+    }
+}
+
+@media (min-width:993px) {
+    .w3-hide-large {
+        display: none!important
+    }
+    .sidebar {
+        display: block!important
+    }
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-size: 35px;
+}
+
+
+/*End section Sidebar/menu  */
+
+
+/*Start section Designers  */
+
+.card img {
+    filter: grayscale(100%);
+}
+
+.card img:hover {
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+
+
+/*End section Designers  */
+
+
+/* Start intro-text */
+
+.intro-text {
+    margin-top: 75px;
+}
+
+.intro-text h1 {
+    font-size: 64px;
+}
+
+.intro-text h2 {
+    color: #f44336;
+    font-size: 48px;
+}
+
+.intro-text p {
+    color: #000000;
+    font-size: 16px;
+}
+
+.intro-text hr {
+    width: 50px;
+    border: 5px solid red;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+
+/* End intro-text */
+
+
+/* Start Card Packages Section  */
+
+.card .feat ul {
+    background-color: #f1f1f1;
+    padding: 0;
+    /* width: 500px; */
+}
+
+.card .feat ul li {
+    list-style-type: none;
+    text-align: center;
+    padding: 8px 16px;
+    border-bottom: 1px solid #ddd;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.card .feat ul button {
+    width: 30%;
+    padding: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+}
+
+.card .feat ul li:first-child {
+    padding: 35px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+.card .feat ul .btnone {
+    background-color: #f44336;
+    color: white;
+}
+
+.card .feat ul .boxone {
+    background-color: #f44336;
+}
+
+.card .feat ul .boxtwo {
+    background-color: #616161;
+}
+
+.card .feat ul .btntwo {
+    background-color: white;
+}
+
+.card .feat ul button:hover {
+    background-color: black;
+    color: white;
+}
+
+
+/* End Card Packages Section  */
+
+
+/* Start Form Contact Section  */
+
+.SectionForm button {
+    background-color: #f85c37;
+    border: 0;
+    padding: 20px 30px;
+    transition: 0.4s;
+    width: 100%;
+    font-size: 15px;
+    margin: 8px 0;
+    color: white;
+    border: none;
+}
+
+
+/* End Form Contact Section  */
+
+
+/* Start footer Section */
+
+footer {
+    padding: 25px;
+    background-color: #f1f1f1;
+}
+
+footer p {
+    text-align: right;
+}
+
+footer p a:hover {
+    color: red;
+}
+
+
+/* End footer Section */
+
+
+/* Start Card Gallery Section  */
+
+.feat img {
+    padding-bottom: 15px;
+    width: 100%;
+    opacity: .9;
+}
+
+.feat img:hover {
+    opacity: 1;
+}
+
+
+/* End Card Gallery Section  */
